@@ -1,0 +1,4 @@
+/home/user/cpp_field/lasagna/CMakeFiles/lasagna.dir
+/home/user/cpp_field/lasagna/CMakeFiles/test_lasagna.dir
+/home/user/cpp_field/lasagna/CMakeFiles/edit_cache.dir
+/home/user/cpp_field/lasagna/CMakeFiles/rebuild_cache.dir

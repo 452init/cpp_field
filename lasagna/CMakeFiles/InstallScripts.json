@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/user/cpp_field/lasagna/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
