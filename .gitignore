@@ -1,0 +1,10 @@
+.exercism/
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt
+Makefile
+cmake_install.cmake
+last-will
+last_will.h
+test/
+
