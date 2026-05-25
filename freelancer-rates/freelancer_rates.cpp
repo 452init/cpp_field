@@ -3,7 +3,8 @@
 
 // daily_rate calculates the daily rate given an hourly rate
 double daily_rate(double hourly_rate) {
-    return hourly_rate * 8;
+		constexp int billable_work_day_hours = 8;
+  	return hourly_rate * billable_work_day_hours;
 }
 
 // apply_discount calculates the price after a discount
