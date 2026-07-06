@@ -27,12 +27,13 @@ std::string choose_vehicle(std::string option1, std::string option2) {
 // calculate_resell_price calculates how much a vehicle can resell for at a
 // certain age.
 double calculate_resell_price(double original_price, double age) {
+    double finalPrice
     if (age <= 3){
-        double finalPrice = original_price * (1 - 0.2);
+        finalPrice = original_price * (1 - 0.2);
     }else if(age == 10){
-        double finalPrice = original_price * (1 - 0.5);
+        finalPrice = original_price * (1 - 0.5);
     }else{
-        double finalPrice = original_price * (1 - 0.3);
+        finalPrice = original_price * (1 - 0.3);
     }
-    return finalPrice
+    return finalPrice;
 }
