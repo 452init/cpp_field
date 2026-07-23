@@ -11,7 +11,7 @@ bool needs_license(std::string kind) {
 // choose_vehicle recommends a vehicle for selection. It always recommends the
 // vehicle that comes first in lexicographical order.
 std::string choose_vehicle(std::string option1, std::string option2) {
-    const std::string statement = " is clearly the better choice.";
+    const std::string& statement = " is clearly the better choice.";
     
     if (option1 < option2){
         return option1 + statement;
@@ -26,7 +26,7 @@ double calculate_resell_price(double original_price, double age) {
 
     if (age < 3){
         return original_price * (1 - 0.2);
-    }else if(age >= 3 && age < 10){
+    }else if(age < 10){
         return original_price * (1 - 0.3);
     }else{
         return original_price * (1 - 0.5);
